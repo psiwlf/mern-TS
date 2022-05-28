@@ -640,6 +640,7 @@ __metadata:
     "@types/express": ^4.17.13
     "@types/node": ^17.0.35
     express: ^4.18.1
+    helmet: ^5.1.0
     src: "link:./src"
     ts-node-dev: ^2.0.0
     typescript: ^4.7.2
@@ -855,6 +856,13 @@ __metadata:
   dependencies:
     function-bind: ^1.1.1
   checksum: b9ad53d53be4af90ce5d1c38331e712522417d017d5ef1ebd0507e07c2fbad8686fffb8e12ddecd4c39ca9b9b47431afbb975b8abf7f3c3b82c98e9aad052792
+  languageName: node
+  linkType: hard
+
+"helmet@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "helmet@npm:5.1.0"
+  checksum: 076958ed8262b72e77276f9e7e9a5e3628b3a44bf39a64a856e919fd3d5a887d3a29b58c1729dfdb0645afd440e763d29a871e866f1fa658f91a718da82ca052
   languageName: node
   linkType: hard
 

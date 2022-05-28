@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express", "npm:4.17.13"],\
             ["@types/node", "npm:17.0.35"],\
             ["express", "npm:4.18.1"],\
+            ["helmet", "npm:5.1.0"],\
             ["src", "link:./src::locator=express-TS%40workspace%3A."],\
             ["ts-node-dev", "virtual:380f4d668b8c29eab23f2a1fcda30e0cca0e1847054546ad8213e0d850ddb2c276b3cee95c6b50a2e7299b5bf69e2cf338b5ba90fe2480e9a45913b5967698bb#npm:2.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
@@ -848,6 +849,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/express", "npm:4.17.13"],\
             ["@types/node", "npm:17.0.35"],\
             ["express", "npm:4.18.1"],\
+            ["helmet", "npm:5.1.0"],\
             ["src", "link:./src::locator=express-TS%40workspace%3A."],\
             ["ts-node-dev", "virtual:380f4d668b8c29eab23f2a1fcda30e0cca0e1847054546ad8213e0d850ddb2c276b3cee95c6b50a2e7299b5bf69e2cf338b5ba90fe2480e9a45913b5967698bb#npm:2.0.0"],\
             ["typescript", "patch:typescript@npm%3A4.7.2#~builtin<compat/typescript>::version=4.7.2&hash=7ad353"]\
@@ -1036,6 +1038,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/has-unicode-npm-2.0.1-893adb4747-1eab07a743.zip/node_modules/has-unicode/",\
           "packageDependencies": [\
             ["has-unicode", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["helmet", [\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/cache/helmet-npm-5.1.0-31ec0d4ca2-076958ed82.zip/node_modules/helmet/",\
+          "packageDependencies": [\
+            ["helmet", "npm:5.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
